@@ -223,7 +223,10 @@ td {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
-
+  .perent-table {
+      overflow: auto;
+      white-space: nowrap;
+  }
 .flex-column {
     flex-direction: column;
 }
@@ -243,14 +246,19 @@ td {
         padding-right: 12px;
     }
 
-    table {
+    .perent-table {
         overflow: auto;
+        white-space: nowrap;
     }
+    
 
 }
 
 @media(max-width:998px) {
     ul {
         padding-left: 50px;
+    }
+    .seddigq{
+        padding-right: 30px;
     }
 }
