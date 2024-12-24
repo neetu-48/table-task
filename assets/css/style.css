@@ -48,8 +48,8 @@
 
 .card {
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%); */
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     padding: 15px;
     backdrop-filter: blur(32px);
@@ -66,6 +66,14 @@
 
 .d-flex {
     display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-25 {
+    gap: 25px;
 }
 
 .gap-80 {
@@ -94,6 +102,10 @@
 
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .percent span {
     color: rgba(255, 255, 255, 1);
 }
@@ -104,4 +116,49 @@
     font-weight: 600;
     line-height: 42px;
     color: rgba(255, 255, 255, 1);
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.box-black {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%); */
+    backdrop-filter: blur(32px);
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border-radius: 10px;
+    padding: 67px 97px 70px 66px;
+}
+
+.sed-sem {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+ul {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    padding-left: 130px;
+}
+
+@media(min-width:576px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(min-width:768px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
